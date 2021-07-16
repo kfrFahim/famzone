@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    width: auto;
+    background: url(img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    min-width: 1200px;
+    min-height: 75px;
+    margin: auto;
+}
+.icon {
+    min-width: 200px;
+    min-height: 70px;
+    float: left;
+}
+
+.logo {
+    color: #f55a33;
+    font-size: 32px;
+    font-family: Arial;
+    padding-top: 13px;
+    padding-left: 20px;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+        float: left;
+        display:flex;
+        
+        align-items: center;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+ul li a:hover {
+
+    color: #ff8d03;
+}
+
+.search {
+   
+    width: 320px;
+   margin-left: 270px;
+    float: left;
+    
+}
+
+.srch {
+
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff8d03;
+    margin-top: 30px;
+    color: #ddd;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.btn {
+
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 1 px solid orange;
+  margin-top: 30px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.contain {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ddd;
+    position: relative;
+
+}
+
+.par {
+
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.5px;
+
+}
+
+
+.ff {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    
+
+    color: bisque;
+    
+}
+
+.contain .bttn {
+
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.contain .bttn a {
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+.bttn:hover {
+
+    background-color: gray;
+}
+
+.contain span {
+
+    color: aqua;
+    padding-left: 40px;
+    font-size: 60px;
+}
+
+
+.loginbox{
+
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    background: black;
+     box-sizing: border-box;   
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    border-radius: 50%;
+    top: -50px;
+    left:calc(50% - 50px);
+   
+}
+.lg {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;   
+    padding-top: 60px; 
+    color: red;
+    font-family: 'arial';
+}
+
+.loginbox p {
+    margin: 5px;
+    padding:  px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.bx {
+    padding-left: 30px;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"] , input[type="password"]
+{
+
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] 
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff8d03;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.loginbox input[type="submit"]:hover {
+    
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 15px;
+    color: darkgray;
+   
+}
+
+.loginbox a:hover {
+
+    color: yellow;
+}
+
+footer {
+    position: ;
+    width:100% ;
+    background-color: gray;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-content .left-box {
+    width: 500px;
+    padding: 0 50px;
+  
+}
+
+
+
+
+h2 {
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0 ;
+}
+
+.left-box .right-box {
+    padding: 20px 0 0 0;
+}
